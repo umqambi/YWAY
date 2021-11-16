@@ -1,0 +1,159 @@
+@import url(../fonts/abhaya_libre_extrabold/abhaya_libre_extrabold.css);
+body {
+    font-family: Abhaya Libre ExtraBold;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* MAIN PAGE STYLES */
+.main-container, .reg-container {
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/bg/main-bg.png);
+    background-color: #000;
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+.welcome {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play-btn {
+    background: #05828E;
+    background: linear-gradient(180deg, #04545B 0%, #05828E 35.97%, #05828E 68.63%, #04545B 100%);
+    border-radius: 30px;
+    width: 635px;
+    height: 139px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-decoration: none;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.play-btn:hover {
+    opacity: 0.95;
+    color: #000;
+}
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+.main-content-left, .main-content-right {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.main-content-left a, .main-content-right a {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.main-content-right {
+    padding-right: 100px;
+}
+.main-content-left{
+    padding-left: 100px;
+}
+.btn-wite {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 105px;
+    background: linear-gradient(180deg, #05828E 0%, #E5E5E5 9.99%, #E5E5E5 89.73%, #05828E 100%);
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 57px;
+    color: #080B11;
+    text-decoration: none;
+    -webkit-transition: all 1s ease 0s;
+    -moz-transition: all 1s ease 0s;
+    -o-transition: all 1s ease 0s;
+    transition: all 1s ease 0s;
+}
+.btn-wite:hover {
+    opacity: 0.8;
+}
+
+
+/* PAGE REGISTRATION */
+.reg-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-head {
+    width: 100%;
+    background: rgba(8, 11, 17, 0.8);
+    border: 2px solid #05828E;
+    box-sizing: border-box;
+}
+.reg-head h1 {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 42px;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.reg-form {
+    background: rgba(22, 34, 41, 0.8);
+    border: 2px solid #05828E;
+    border-top: 0;
+    padding: 60px 55px;
+}
+.reg-input {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 22px;
+    align-items: center;
+}
+.reg-label {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+    width: 125px;
+    margin-right: 20px;
+    text-align: end;
+}
+.reg-control {
+    width: 430px;
+    height: 61px;
+    background: #E5E5E5;
+}
+.reg-mb {
+    margin-bottom: 84px;
+}
+.reg-footer {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+.reg-btn {
+    width: 241px;
+    height: 46px;
+    left: 886px;
+    top: 841px;
+    background: linear-gradient(180deg, #05828E 0%, #E5E5E5 9.99%, #E5E5E5 89.73%, #05828E 100%);
+    border-radius: 30px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
